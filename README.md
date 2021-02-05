@@ -1,6 +1,6 @@
 # Simple Property Landing Page Built Using ReactJS
 
-Sample landing page build using ReactJS
+Sample landing page build using ReactJS. [Demo Site Hosted in Vercel](https://wakanda-property.vercel.app/).
 
 
 ## Recipe
