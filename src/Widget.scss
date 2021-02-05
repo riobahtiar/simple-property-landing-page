@@ -1,0 +1,142 @@
+$our_green: #4cbb7e;
+.card {
+  border-radius: 5px;
+  padding: 5px;
+  max-width: 300px;
+  background-color: white;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  color: black;
+  @at-root #{&}--header {
+    .location & {
+      margin-bottom: 25px;
+    }
+
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 5px;
+    &Img {
+      height: 310px;
+      object-fit: cover;
+      object-position: -4px -44px;
+    }
+  }
+  @at-root #{&}--body {
+    &Meta {
+      width: 100%;
+      display: inline-flex;
+      padding: 5px;
+
+      span {
+        font-family: 'AvenirNextSemiBold';
+        font-weight: normal;
+        padding: 3px 10px;
+        font-size: 9px;
+        margin-left: 5px;
+      }
+
+      .primary {
+        background-color: #e6e9ec;
+        border-radius: 2px;
+      }
+
+      .tag {
+        border-radius: 15px;
+        background-color: $our_green;
+        color: white;
+      }
+
+      .wishlist {
+        margin-left: auto;
+        margin-right: 35px;
+        padding: 0;
+
+        svg {
+          position: absolute;
+          height: 18px;
+          width: auto;
+        }
+      }
+    }
+
+    &Pricing {
+      padding: 5px 5px 0 5px;
+      font-size: 12px;
+
+      .totalPrice {
+        margin-left: 5px;
+        font-family: 'AvenirNextBold';
+        font-size: 16px;
+        padding-right: 5px;
+      }
+    }
+
+    &Spec {
+      padding: 5px;
+      display: block;
+
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin-left: 5px;
+        display: inline-flex;
+
+        li {
+          padding-right: 15px;
+
+          &:last-child {
+            padding-right: 0;
+          }
+        }
+      }
+
+      svg {
+        width: auto;
+        height: 13px;
+        margin-bottom: -2px;
+      }
+
+      span {
+        font-size: 12px;
+        font-family: 'AvenirNextSemiBold';
+      }
+    }
+
+    &Info {
+      h3 {
+        margin: 0;
+        font-family: 'AvenirNextSemiBold';
+        font-size: 16px;
+      }
+
+      span {
+        font-size: 12px;
+      }
+
+      padding: 5px 10px 0 10px;
+    }
+
+    &CTA {
+      .location & {
+        margin-top: 25px;
+      }
+
+      margin-top: 5px;
+      display: block;
+
+      button {
+        padding: 10px 15px;
+        color: white;
+        width: 100%;
+        background-color: $our_green;
+        border: none;
+        border-radius: 2px;
+      }
+    }
+  }
+}

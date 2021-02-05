@@ -1,0 +1,70 @@
+[
+  {
+    "title": "Rumah Minimalis di Mawar Barat",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    "address": "Jl. Mawar, Cimahi, Bandung",
+    "price_str": "Rp 326 jt",
+    "status": "Dijual",
+    "tags": [
+      "Nego",
+      "Promo"
+    ],
+    "installment": "Rp 2,61 jt/bln",
+    "specification": {
+      "bedroom": 2,
+      "bathroom": 2,
+      "building_size": 2,
+      "land_size": 2
+    },
+    "media": {
+      "thumbnail": "https://cdn.id9.site/riomyid/2021/02/02044424/thumb-home-1.jpeg",
+      "large": "https://cdn.id9.site/riomyid/2021/02/02044353/full-home-1.jpeg",
+      "map_img": "https://cdn.id9.site/riomyid/2021/02/02044536/map%402x.png"
+    }
+  },
+  {
+    "title": "Rumah disewakan Murah 100jt Setahun",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    "address": "Jl. Melati, Cimahi, Bandung",
+    "price_str": "Rp 989 jt",
+    "status": "Disewakan",
+    "tags": [
+      "Nego",
+      "Promo"
+    ],
+    "installment": "Rp 5,99 jt/bln",
+    "specification": {
+      "bedroom": 2,
+      "bathroom": 2,
+      "land_size": 2,
+      "building_size": 2
+    },
+    "media": {
+      "thumbnail": "https://cdn.id9.site/riomyid/2021/02/02044421/thumb-home-2.jpeg",
+      "large": "https://cdn.id9.site/riomyid/2021/02/02044401/full-home-2.jpeg",
+      "map_img": "https://cdn.id9.site/riomyid/2021/02/02044536/map%402x.png"
+    }
+  },
+  {
+    "title": "Rumah dijual di Selatan Durian",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    "address": "Jl. Durian, Cimahi, Bandung",
+    "price_str": "Rp 796 jt",
+    "status": "Dijual",
+    "tags": [
+      "Promo"
+    ],
+    "installment": "Rp 3,8 jt/bln",
+    "specification": {
+      "bedroom": 2,
+      "bathroom": 2,
+      "land_size": 2,
+      "building_size": 2
+    },
+    "media": {
+      "thumbnail": "https://cdn.id9.site/riomyid/2021/02/02044414/thumb-home-3.jpeg",
+      "large": "https://cdn.id9.site/riomyid/2021/02/02044410/full-home-3.jpeg",
+      "map_img": "https://cdn.id9.site/riomyid/2021/02/02044536/map%402x.png"
+    }
+  }
+]

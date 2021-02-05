@@ -1,0 +1,40 @@
+$font_name: 'AvenirNext';
+
+@font-face {
+  font-family: $font_name;
+  font-style: normal;
+  font-weight: normal;
+  src: url('/fonts/AvenirNext-Regular.woff2') format('woff2'),
+       url('/fonts/AvenirNext-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: $font_name+'SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/AvenirNext-DemiBold.woff2') format('woff2'),
+       url('/fonts/AvenirNext-DemiBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: $font_name+'Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/AvenirNext-Bold.woff2') format('woff2'),
+       url('/fonts/AvenirNext-Bold.woff') format('woff');
+}
+
+body {
+  font-family: $font_name;
+  background: #591eac url(img/bg.png) no-repeat fixed left bottom;
+  background-size: 1200px;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: $font_name+'Bold';
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
