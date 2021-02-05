@@ -1,6 +1,13 @@
 # Simple Property Landing Page Built Using ReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Sample landing page build using ReactJS
+
+
+## Recipe
+- [Create React App](https://github.com/facebook/create-react-app)
+- Built-in Slider(without plugins or 3rd party addons)
+- Built-in Modal(without plugins or 3rd party addons)
+
 
 ## Available Scripts
 
